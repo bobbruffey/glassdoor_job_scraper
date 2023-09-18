@@ -3,6 +3,7 @@ Python script leveraging Selenium for job seekers looking for WFH roles from top
 
 ## Process
 The glassdoor job scraper follows a three piece scraping process:
+
 I. Company Scrape
     The first step is to pull companies that have a top work-life balance for a role you are interested in. For example, pull companies with a work-life balance >= 3.5 stars for Analyst roles. This scrape will pull a max of ~9,900 companies as Glassdoor has a bug that doesn't show more companies after page 1,000 on the company explore section of the site.
 
